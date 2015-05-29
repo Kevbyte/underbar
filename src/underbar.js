@@ -42,7 +42,7 @@
       return []
     }
     else{
-      return (n===undefined)?array[array.length-1]:array.slice(-n)
+      return (n===undefined)?array[array.length-1]:array.slice(-n);
     }
   };
 
